@@ -74,6 +74,7 @@ ul {
 .random-information {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.5%;
 }
 
 h1 {
@@ -106,4 +107,52 @@ h1 {
     color: #1f2937;
     width: 100px;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 10% 20%;
+}
+
+.quote-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2.5% 5%;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
+
+.action-text {
+    padding: 5% 10%;
+}
+
+.action-main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.action-sub-text {
+    color: #F9FAF8;
 }
