@@ -37,7 +37,7 @@ ul {
     flex-direction: row;
     padding: 2.5% 10% 2.5% 10%;
     background-color:#1F2937;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 32px;
 }
 
@@ -59,6 +59,7 @@ ul {
   height: 300px;
   background:grey;
   text-align: center;
+  font-size: 18px;
 }
 
 .sign-up {
@@ -69,12 +70,14 @@ ul {
     padding: 4px 16px;
     color: #E5E7EB;
     font-weight: 700;
+    margin-top: 1%;
 }
 
 .random-information {
     display: flex;
     flex-direction: column;
     margin-bottom: 2.5%;
+    margin-top: 2.5%;
 }
 
 h1 {
@@ -87,15 +90,15 @@ h1 {
 .box-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 32px;
+    justify-content: space-evenly;
+    padding: 2.5% 20%;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #3882F6;
-  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
   margin-bottom: 10px;
 }
 
@@ -103,7 +106,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #1f2937;
     width: 100px;
     text-align: center;
@@ -133,7 +136,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 6% 5%;
+    padding: 6% 0;
 }
 
 .action-box {
@@ -141,30 +144,31 @@ h1 {
     flex-direction: row;
     align-items: center;
     background-color: #3882F6;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 2.5% 5%;
-    gap: 64px;
+    gap: 128px;
 }
 
 
 .action-main-text {
     color: #F9FAF8;
     font-weight: 900;
+    font-size: 24px;
 }
 
 .action-sub-text {
     color: #F9FAF8;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .action-signup {
     color: #F9FAF8;
-    border: 1px solid #F9FAF8;
-    border-radius: 4px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
     background-color: #3882F6;
-    padding: 2px 15px;
-    font-size: 10px;
+    padding: 8px 32px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -173,7 +177,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 18px;
     background-color: #1F2937;
     color:#E5E7EB;;
     padding: 2% 0;
